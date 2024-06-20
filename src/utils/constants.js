@@ -1,5 +1,5 @@
 //getting api key from "https://console.cloud.google.com/apis/credentials?project=my-project-youtube-426215&supportedpurview=project"
-const GOOGLE_API_KEY = "AIzaSyA4_s1BcTbB7UrBR2iQosx04vDhhrIcbuY";
+const GOOGLE_API_KEY = "";
 
 // getting url from this website https://developers.google.com/youtube/v3/docs/videos/list
 export const YOUTUBE_VIDEOS_API = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key=" + GOOGLE_API_KEY;
